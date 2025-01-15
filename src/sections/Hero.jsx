@@ -14,7 +14,7 @@ const Hero = () => {
       id="home"
       className="max-container flex min-h-screen w-full flex-col justify-center gap-10 xl:flex-row"
     >
-      <div className="max-xl:padding-x relative flex w-full flex-col items-start justify-center pt-28 xl:w-2/5">
+      <div className="max-xl:padding-x relative mt-20 flex w-full flex-col items-start justify-center pt-28 xl:w-2/5">
         <p className="font-montserrat text-xl text-coral-red">
           Our Summer collections
         </p>
