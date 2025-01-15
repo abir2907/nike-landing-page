@@ -14,7 +14,7 @@ const Hero = () => {
       id="home"
       className="max-container flex min-h-screen w-full flex-col justify-center gap-10 xl:flex-row"
     >
-      <div className="max-xl:padding-x relative mt-20 flex w-full flex-col items-start justify-center pt-28 xl:w-2/5">
+      <div className="max-xl:padding-x relative flex w-full flex-col items-start justify-center pt-28 xl:w-2/5">
         <p className="font-montserrat text-xl text-coral-red">
           Our Summer collections
         </p>
@@ -26,14 +26,14 @@ const Hero = () => {
           <br />
           <span className="mt-3 inline-block text-coral-red">Nike</span> Shoes
         </h1>
-        <p className="mb-14 mt-6 font-montserrat text-lg leading-8 text-slate-gray sm:max-w-sm">
+        <p className="mb-10 mt-6 font-montserrat text-lg leading-8 text-slate-gray sm:max-w-sm">
           Discover stylish Nike arrivals, quality comfort, and innovation for
           your active life.
         </p>
 
         <Button label="Shop now" iconURL={arrowRight} />
 
-        <div className="mt-20 flex w-full flex-wrap items-start justify-start gap-16">
+        <div className="mt-14 flex w-full flex-wrap items-start justify-start gap-16">
           {statistics.map((stat, index) => (
             <div key={index}>
               <p className="font-palanquin text-4xl font-bold">{stat.value}</p>
