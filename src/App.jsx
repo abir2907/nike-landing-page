@@ -11,7 +11,7 @@ import {
 import Nav from "./components/Nav";
 
 const App = () => (
-  <main className="max-container relative">
+  <main className="relative">
     <Nav />
     <section className="xl:padding-l wide:padding-r padding-b max-container">
       <Hero />
